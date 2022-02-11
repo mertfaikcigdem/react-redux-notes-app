@@ -1,0 +1,137 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: slategrey;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header > span {
+  font-size: 36px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.header > input {
+  width: 350px;
+  padding: 15px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  font-size: 18px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  flex-direction: column;
+}
+
+.content > textarea {
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+}
+
+.content > .content-footer {
+  width: 700px;
+  background-color: white;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content > .content-footer > .color-divs {
+  display: flex;
+}
+
+.content > .content-footer > .color-divs > div {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.content > .content-footer > .color-divs > .div-lightblue {
+  background-color: lightblue;
+  text-align: center;
+  font-size: 20px;
+}
+
+.content > .content-footer > .color-divs > .div-lightgreen {
+  background-color: lightgreen;
+  text-align: center;
+  font-size: 20px;
+}
+
+.content > .content-footer > .color-divs > .div-lightpink {
+  background-color: lightpink;
+  text-align: center;
+  font-size: 20px;
+}
+
+.content > .content-footer > button {
+  border: none;
+  padding: 6px 14px;
+  background-color: limegreen;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  color: white;
+}
+
+.notes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.notes > .notes-elements {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+}
+
+.lightblue-notes {
+  background-color: lightblue;
+  padding: 10px;
+  width: 170px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  height: 30px;
+}
+
+.lightgreen-notes {
+  background-color: lightgreen;
+  padding: 10px;
+  width: 170px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  height: 30px;
+}
+
+.lightpink-notes {
+  background-color: lightpink;
+  padding: 10px;
+  width: 170px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  height: 30px;
+}
